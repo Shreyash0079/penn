@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | The Amazing Pen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">The Amazing Pen</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="art-method.html">Art Method</a></li>
+                <li><a href="pricing.html" class="active">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 class="fade-in">Pricing & Payment</h1>
+        </div>
+    </header>
+    <main>
+        <section class="pricing-section">
+            <h2>Choose Your Perfect Pen</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <img src="OIP (2).jpeg" alt="Basic Pen" class="product-img">
+                    <h3>Basic Pen</h3>
+                    <p class="price">₹150</p>
+                    <p class="description">Perfect for everyday writing</p>
+                    <button class="buy-btn" onclick="addToCart('Basic Pen', 150)">Add to Cart</button>
+                </div>
+                <div class="pricing-card">
+                    <img src="OIP (1).jpeg" alt="Premium Pen" class="product-img">
+                    <h3>Premium Pen</h3>
+                    <p class="price">₹350</p>
+                    <p class="description">Smooth writing experience</p>
+                    <button class="buy-btn" onclick="addToCart('Premium Pen', 350)">Add to Cart</button>
+                </div>
+                <div class="pricing-card">
+                    <img src="OIP.jpeg" alt="Luxury Pen" class="product-img">
+                    <h3>Luxury Pen</h3>
+                    <p class="price">₹750</p>
+                    <p class="description">Elegant design for professionals</p>
+                    <button class="buy-btn" onclick="addToCart('Luxury Pen', 750)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="payment-section">
+            <h2>Payment Methods</h2>
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <h3>💳 Credit/Debit Card</h3>
+                    <p>Secure payment with Visa, MasterCard, or RuPay</p>
+                </div>
+                <div class="payment-method">
+                    <h3>📱 UPI</h3>
+                    <p>Pay using any UPI app (Google Pay, PhonePe, etc.)</p>
+                </div>
+                <div class="payment-method">
+                    <h3>🏦 Net Banking</h3>
+                    <p>Direct bank transfer from your account</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 The Amazing Pen. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="images.html">Images</a> |
+                <a href="art-method.html">Art Method</a> |
+                <a href="pricing.html">Pricing</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="pricing.js"></script>
+</body>
+</html> 
